@@ -1,0 +1,16 @@
+<odoo noupdate="1">
+
+    <record forcecreate="True" id="config_api_jwt_token" model="ir.config_parameter">
+        <field name="key">azumuta.api.jwt_token</field>
+        <field name="value"></field>
+    </record>
+    <record forcecreate="True" id="config_api_jwt_expiration" model="ir.config_parameter">
+        <field name="key">azumuta.api.jwt_expiration</field>
+        <field name="value"></field>
+    </record>
+    <record forcecreate="True" id="config_api_refresh_token" model="ir.config_parameter">
+        <field name="key">azumuta.api.refresh_token</field>
+        <field name="value"></field>
+    </record>
+
+</odoo>

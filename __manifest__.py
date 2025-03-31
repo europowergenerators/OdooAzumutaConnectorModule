@@ -4,10 +4,13 @@
     "name": "Azumuta Sync",
     "version": "14.0.0.0.1",
     "author": "e-power",
-    "license": "MIT",
+    "license": "LGPL-3",
     "website": "https://github.com/europowergenerators",
     "category": "Azumuta",
-    "depends": ["employee"],
-    "data": ["views/azumuta_view.xml"],
+    "depends": ["hr"],
+    "data": [
+        "views/azumuta_view.xml",
+        "data/config_parameter.xml"
+    ],
     "installable": True,
 }
